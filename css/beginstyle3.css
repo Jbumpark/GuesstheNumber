@@ -1,0 +1,94 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+}
+
+div{
+	 text_align:center;
+	 padding:10px;
+}
+
+circle{
+	 text_align:right;
+}
+body
+{ 
+   background-image:url('../img/wallpaper/wall3.png');
+   background-repeat:no-repeat;
+   background-size: cover;
+}
+
+
+
+.output-container po{
+	position : absolute;
+	color : #e60544;
+    display:inline-block;
+}
+
+.output-container p{
+	position : absolute;
+	color : #0759e6;
+    padding:0%;
+}
+
+.button-container circle{
+    font-size: 100%;
+    text-align:center;
+    position : absolute;
+    width: 10%;
+    padding-bottom: 5%;
+    border-radius: 50%;
+    color: #000000; 
+    background : #f0ebf0;
+    border:3px solid #524f52; ;
+}
+.score-container score{
+	position : absolute;
+}
+.score-container button{
+	width:20%;
+	height:5%;
+	position : absolute;
+	
+    background: #4679BD; 
+}
+
+
+.button-container p{
+    padding:3%;
+}
+
+
+.level-1 {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 12%;
+    background-size: 100%;
+    background: url('../img/wallpaper/easy.png') bottom center no-repeat transparent;
+}
+.level-2 {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 12%;
+    background-size: 100%;
+    background: url('../img/wallpaper/normal.png') bottom center no-repeat transparent;
+}
+
+.level-3 {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 12%;
+    background-size: 100%;
+    background: url('../img/wallpaper/hard.png') bottom center no-repeat transparent;
+}
+
+.key.black.pressed {
+    background-image: url('../images/black_pressed.png');
+}
+
